@@ -1,0 +1,64 @@
+.landing-page {
+    background-image: url('bus.jpg'); /* Replace with an appropriate background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #1a5f7a;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    color: #333;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .login-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .login-button:not(.admin) {
+    background-color: #2ecc71;
+  }
+  
+  .login-button:not(.admin):hover {
+    background-color: #27ae60;
+  }
+  
+  .login-button.admin {
+    background-color: #3498db;
+  }
+  
+  .login-button.admin:hover {
+    background-color: #2980b9;
+  }
